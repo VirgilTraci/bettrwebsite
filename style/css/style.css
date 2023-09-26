@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;600&family=Poppins:wght@300;600&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body { 
+    font-family: Figtree, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+#header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#left-header {
+    flex: 300px;
+    background-color: lightpink;
+}
+
+#middle-header {
+    flex: 600px;
+    background-color: lightblue;
+}
+
+#right-header {
+    flex: 1;
+    background-color: lightpink;
+}
