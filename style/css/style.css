@@ -88,3 +88,17 @@ a {
 .active {
     border-bottom: 1px solid #69c0c7;
 }
+
+.embed-highlight {
+    color: #69c0c7;
+    font-family: Figtree, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.embed-red {
+    color: #e01c3f;
+    font-family: Figtree, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}

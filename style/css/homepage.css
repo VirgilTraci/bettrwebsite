@@ -42,7 +42,6 @@
 }
 
 .hero-text2 {
-    float: right;
     width: 40%;
     position: absolute;
     font-family: Poppins, sans-serif;
@@ -56,26 +55,6 @@
     display: inline-block;
 }
 
-#hero-text>h3 {
-    float: right;
-    font-size: 200%;
-    color: #69c0c7;
-}
-
-.embed-highlight {
-    color: #69c0c7;
-    font-family: Figtree, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-}
-
-.embed-red {
-    color: #e01c3f;
-    font-family: Figtree, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-}
-
 .sub-heading {
     margin: 10px;
     font-weight: 600;
@@ -85,10 +64,6 @@
 .sub-heading>h2{
     font-weight: 300;
     font-size: 24px;
-}
-
-.did-you-know-section {
-    
 }
 
 .dyk-detail {

@@ -1,0 +1,100 @@
+.signup-section {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.signup-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("/style/images/sportscrowd.jpeg") no-repeat center center;
+    object-fit: contain;
+}
+
+.signup-form {
+    margin-top: 40px;
+    padding: 30px;
+    width: 450px;
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    padding: 15px;
+    background-color: rgba(3, 3, 2, 0.6);
+    bottom: 20px;
+    right: 30px;
+    color: #fff;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#heading {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.input-field {
+    display: block;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    padding: 0 0 0 0;
+    font-family: Figtree, Arial;
+    font-size: 12px; 
+    accent-color: #e01c3f;
+}
+
+.interest {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#interest-header {
+    margin-top: 10px;
+}
+
+#button { 
+    float: center;
+    border-radius: 8px;
+    background-color: #f5eed6;
+    color: #69c0c7;
+    font-family: Figtree, Arial;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    width: 100%
+}
+
+#input-section {
+    margin-top: 10px;
+}
+
+.text-input {
+    line-height: 30px;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 10px;
+}
+
+.signup-section>p {
+    font-size: 10px;
+}
+
+input[type=radio] {
+/*    display: block;*/
+    background-color: white;
+}
+
+input[type=radio]:checked {
+    accent-color: #e01c3f;
+}
+
+input[type=text]:target-text {
+    accent-color: #e01c3f;
+}

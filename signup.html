@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/style/css/style.css">
-    <link rel="stylesheet" href="/style/css/signup-page.css">
+    <link rel="stylesheet" href="/style/css/signup.css">
 </head>
 <body>
     <div class="header-section">
@@ -19,7 +19,7 @@
                         <a href="signup.html" class="active">sign up</a>
                     </li>
                     <li>
-                        <a href="investor-page.html">investors</a>
+                        <a href="investor_page.html">investors</a>
                     </li>
                     <li>
                         <a href="index.html">about</a>
@@ -27,10 +27,42 @@
                 </ul>
             </nav>
         </div>
-
     </div>
     <div class="signup-section">
-        <div class="signup-image">Hello</div>
+        <div class="signup-image"></div>
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
+            
+            <h1 id="heading">Lets get you signed up to <span class="embed-highlight">bettr</span><span class="embed-red">.</span></h1>
+
+            <p>Enter your details if you are interested in signing up to the beta testing progam, or
+                also if you are interested in becoming an investor, or both.</p>
+
+            <div id="input-section">
+                <div class="input-field">
+                    <input type="text" id="fname" name="first_name" class="text-input" placeholder="First Name" required>
+                </div>
+                <div class="input-field">
+                    <input type="text" id="lname" name="last_name" class="text-input" placeholder="Last Name" required>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email" name="email_address" class="text-input" placeholder="Email" required>
+                </div>
+            </div>
+
+            <p id="interest-header">Let us know why you are interested in bettr:</p>
+
+            <div class="interest">
+                <label for="beta">Beta testing</label>
+                <input id="beta" value="beta" type="radio" label="Beta testing" name="interest" required>
+
+                <label for="investment">Investment opportunity</label>
+                <input id="investment" name="interest" value="investment" type="radio">
+
+                <label for="both">Both</label>
+                <input id="both" name="interest" value="both" type="radio">
+            </div>
+            <input type="submit" value="Sign up!" class="submit-button" id="button">
+        </form>
     </div>
 </body>
 </html>
