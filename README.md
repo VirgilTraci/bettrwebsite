@@ -69,7 +69,11 @@ Webiste goals
 
 The bettr website is looking to attarct two types of visitors: users/testers of the platform, investors.
 
+Users/testers - we need to attract 1000 users to the playform over the next 6 months. New start-ups will be added to the platform gradually as we innovate with new features and can manage a greater number of users. 
 
+Investors - we are looking for a handful of investors over the course of the next year to reach our target of £200k invested. 
+
+Sign up details will (eventually) feed into our CRM tool. All GDPR rules will be adherred to. 
 
 
 
