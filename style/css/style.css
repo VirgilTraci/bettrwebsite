@@ -102,3 +102,11 @@ a {
     font-weight: 600;
     font-size: 22px;
 }
+
+.social-section {
+    height: 400px;
+}
+
+.standard-section {
+    margin: 20px, 10px;
+}
