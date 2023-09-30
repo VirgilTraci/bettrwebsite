@@ -94,15 +94,14 @@ a {
     font-size: 22px;
 }
 
-.social-section {
+.social-detail {
     height: 400px;
     width: 100%;
-    background-color: #eefbf8;
+    background-color: #f5eed6;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-between;
 }
 
 .social-box {
@@ -111,19 +110,19 @@ a {
     padding: 10px;
     margin: 10px;
 }
-
+/*
 #social-x {
-    background: ;
+    <i class="fa-brands fa-x-twitter" style="color: #bd2d22;"></i>    
 }
 
 #social-insta {
-    background: ;
+   <i class="fa-brands fa-instagram" style="color: #69c0c7;"></i>
 }
 
 #social-facebook {
-    background: ;
+    <i class="fa-brands fa-facebook" style="color: #bd2d22;"></i> 
 }
-
+*/
 .standard-section {
     margin: 20px, 10px;
 }
