@@ -2,11 +2,10 @@
 <html lang ="en">
 <head>
     <meta charset="UTF-8">
-   
     <link rel="stylesheet" href="/style/css/style.css">
     <link rel="stylesheet" href="/style/css/homepage.css">
-    
     <title>bettr.friends</title>
+    <script src="carousel.js"></script>
 </head>
 <body>
     <div class="header-section">
@@ -44,48 +43,7 @@
         </div>
     </div>
 
-    <div id="carousel-section">
-       
-        <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 4</div>
-              <img src="img1.jpg" style="width:20%">
-              <div class="text">Caption Text</div>
-            </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 4</div>
-              <img src="img2.jpg" style="width:20%">
-              <div class="text">Caption Two</div>
-            </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 4</div>
-              <img src="img3.jpg" style="width:20%">
-              <div class="text">Caption Three</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 4</div>
-                <img src="img4.jpg" style="width:20%">
-                <div class="text">Caption Four</div>
-            </div>
-          
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-        
-        </div>
-    </div>
-    <!-- <div class="standard-section" id="did-you-know-section">
+    <div class="standard-section" id="did-you-know-section">
         <div class="sub-heading">
             <h1>Did you know...?</h1>
             <h2>Some little known facts about betting in the UK that will make you think again about traditional
@@ -109,8 +67,34 @@
                 <h1>They can't afford!</h1>
             </div>
         </div>
-    </div> -->
-    <div class="standard-section" id="how-it-works-section">
+    </div>
+
+    <div id="carousel-section">
+        <ul class="slider">
+            <li>
+                <input type="radio" id="slide1" name="slide" checked>
+                <label for="slide1"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/872485/coldchase.jpg" alt="Panel 1">
+            </li>
+            <li>
+                <input type="radio" id="slide2" name="slide">
+                <label for="slide2"></label>
+               <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/980517/icehut_sm.jpg" alt="Panel 2">
+            </li>
+            <li>
+                <input type="radio" id="slide3" name="slide">
+                <label for="slide3"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/943660/hq_sm.jpg" alt="Panel 3">
+            </li>
+            <li><a href="http://cssslider.com/">
+                <input type="radio" id="slide4" name="slide">
+                <label for="slide4"></label>
+                <img src="https://dribbble.s3.amazonaws.com/users/322/screenshots/599584/home.jpg" alt="Panel 4"></a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- <div class="standard-section" id="how-it-works-section">
         <div class="sub-heading">
             <h1>How it works</h1>
             <h2>Introducing, social betting. A more affordable way to bet on your favourite sports/teams.</h2>           
@@ -146,8 +130,9 @@
                 - Step 4 -
             </div>
         </div>
-    </div>
-    <div class="social-section">
+    </div> -->
+
+    <div class="social-section"> 
        <p>Follow us your favourite social channel</p>
         <div class="social-detail">
             <div class="social-box" id="social-x"></div>
@@ -155,5 +140,6 @@
             <div class="social-box" id="social-facebook"></div>
         </div>
     </div>
+    
 </body>
 </html>

@@ -33,19 +33,10 @@ h1 {
 
 .left-header {
     flex: 300px;
-    background-color: lightpink;
 }
-
-/*
-.middle-header {
-    flex: 1;
-    background-color: lightblue;
-}
-*/
 
 .right-header {
     flex: 1;
-    background-color: lightpink;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
