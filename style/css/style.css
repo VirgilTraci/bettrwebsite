@@ -96,6 +96,32 @@ a {
 
 .social-section {
     height: 400px;
+    width: 100%;
+    background-color: #eefbf8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-box {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#social-x {
+    background: ;
+}
+
+#social-insta {
+    background: ;
+}
+
+#social-facebook {
+    background: ;
 }
 
 .standard-section {
