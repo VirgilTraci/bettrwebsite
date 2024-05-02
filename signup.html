@@ -32,7 +32,7 @@
         <div class="signup-image"></div>
         <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST" class="signup-form">
             
-            <h1 id="heading">Lets get you signed up to <span class="embed-highlight">bettr</span><span class="embed-red">.</span></h1>
+            <h3 id="heading">Lets get you signed up to <span class="embed-highlight">bettr</span><span class="embed-red">...</span></h3>
 
             <p>Enter your details if you are interested in signing up to the beta testing progam, or
                 also if you are interested in becoming an investor, or both.</p>
@@ -52,16 +52,21 @@
             <p id="interest-header">Let us know why you are interested in bettr:</p>
 
             <div class="interest">
-                <label for="beta">Beta testing</label>
-                <input id="beta" value="beta" type="radio" label="Beta testing" name="interest" required>
-
-                <label for="investment">Investment opportunity</label>
-                <input id="investment" name="interest" value="investment" type="radio">
-
-                <label for="both">Both</label>
-                <input id="both" name="interest" value="both" type="radio">
+                <div class="indent">
+                    <input id="beta" value="beta" type="radio" label="Beta testing" name="interest" required>
+                    <label for="beta">Beta testing</label>
+                </div>
+                <div class="indent">
+                    
+                    <input id="investment" name="interest" value="investment" type="radio">
+                    <label for="investment">Investment opportunity</label>
+                </div>
+                <div class="indent">
+                    <input id="both" name="interest" value="both" type="radio">
+                    <label for="both">Both</label>
+                </div>    
             </div>
-            <input type="submit" value="Sign up!" class="submit-button" id="button">
+            <input type="submit" value="Sign up!" id="button">
         </form>
     </div>
 </body>

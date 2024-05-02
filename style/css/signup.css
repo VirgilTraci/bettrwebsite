@@ -50,8 +50,16 @@ label {
 }
 
 .interest {
+    display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
+    flex-direction: column;
+    text-align: start;
+
+}
+
+.indent {
+    margin-left: 20px;
 }
 
 #interest-header {
@@ -62,13 +70,16 @@ label {
     float: center;
     border-radius: 8px;
     background-color: #f5eed6;
-    color: #69c0c7;
+    color: #e01c3f;
     font-family: Figtree, Arial;
     font-weight: 600;
     font-size: 20px;
     padding: 10px 30px;
     margin-top: 20px;
-    width: 100%
+    width: 100%;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
 }
 
 #input-section {

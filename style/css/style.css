@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;600&family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;600;800&family=Poppins:wght@300;600;800&display=swap');
 
 * { 
     margin: 0;
@@ -83,15 +83,15 @@ a {
 .embed-highlight {
     color: #69c0c7;
     font-family: Figtree, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .embed-red {
     color: #e01c3f;
     font-family: Figtree, sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .social-detail {
